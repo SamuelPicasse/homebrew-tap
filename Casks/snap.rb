@@ -1,8 +1,8 @@
 # Homebrew cask template; Scripts/bundle.sh --release fills in version/sha256 and pushes it
 # to SamuelPicasse/homebrew-tap. Install: brew install --cask samuelpicasse/tap/snap
 cask "snap" do
-  version "0.1.0"
-  sha256 "ef467e0f188f7c07d88b13b498c161a7310021ffcc517433359d177fbd8086ae"
+  version "0.2.0"
+  sha256 "4ce49a4958e756f2673cb55b411050bd1115f57b2333c4e94acc02e9f2391009"
 
   url "https://github.com/SamuelPicasse/snap/releases/download/v#{version}/Snap.zip"
   name "Snap"
